@@ -7,6 +7,8 @@ from streamlit_pills import pills
 import tensorflow as tf
 from main import get_recommendations
 import nltk
+from main import sidebar
+
 nltk.data.path.append('./nltk_data')
 
 col1, col2 = st.columns([1, 4])  
