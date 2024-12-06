@@ -38,7 +38,7 @@ st.text('Coursera Dataset from Kaggle')
 
 sidebar()
 
-selected = pills("Eg.", ["Modern Art","Machine Learning", "Music", "Game Developer", "Mathematic", "Data Analyst"], ["🎭","🤖", "🎵", "🎮", "🧮","📊"],clearable=True,index=None)
+selected = pills("Eg.", ["Python","Machine Learning", "Music", "Game Developer", "Data science", "Data Analyst"], ["🐍","🤖", "🎵", "🎮", "🧮","📊"],clearable=True,index=None)
 
 input_text = st.text_input('Enter a keyword or course interest description:',selected)
 
