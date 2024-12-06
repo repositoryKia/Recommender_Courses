@@ -14,7 +14,7 @@ nltk.data.path.append('./nltk_data')
 col1, col2 = st.columns([1, 4])  
 
 with col1:
-    st.image('logo/12.png', use_container_width=True)  
+    st.image('logo/12.png', use_column_width=True)  
 
 with col2:
     st.title('Course Recommendation System')  
